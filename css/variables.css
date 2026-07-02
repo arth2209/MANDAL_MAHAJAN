@@ -1,0 +1,52 @@
+:root {
+  /* Warm gaushala palette — cream, earth-brown and terracotta/maroon
+     (tuned to match the Paliyad Panjrapol look: cream bg, brown text, red-maroon accent) */
+  --color-primary: #bf443c;
+  /* terracotta-maroon — buttons, links, accents */
+  --color-primary-dark: #8f2f2a;
+  --color-primary-light: #d9673f;
+  /* warm saffron-orange */
+  --color-secondary: #b8862f;
+  /* saffron / gold */
+  --color-earth: #6d5f48;
+  --color-beige: #f7eac7;
+  /* cream background */
+  --color-beige-dark: #ecd9ad;
+  --color-white: #ffffff;
+  --color-text: #3f3527;
+  /* dark warm brown */
+  --color-text-muted: #6d5f48;
+  --color-border: #e3d3ad;
+  --color-shadow: rgba(74, 60, 42, 0.12);
+  --color-shadow-hover: rgba(74, 60, 42, 0.22);
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Source Sans 3', 'Segoe UI', sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --nav-height: 72px;
+
+  --bg-body: var(--color-beige);
+  --bg-card: #fffdf8;
+  /* warm white cards */
+  --bg-nav: rgba(255, 253, 248, 0.95);
+  --bg-footer: #3a2f20;
+  /* deep brown */
+}
+
+[data-theme="dark"] {
+  --color-text: #f0e6d2;
+  --color-text-muted: #c4b495;
+  --color-border: #4a3c2a;
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  --color-shadow-hover: rgba(0, 0, 0, 0.45);
+  --bg-body: #241d14;
+  --bg-card: #2f2619;
+  --bg-nav: rgba(36, 29, 20, 0.97);
+  --bg-footer: #15100a;
+}
